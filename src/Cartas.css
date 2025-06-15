@@ -1,0 +1,42 @@
+.cartas-contenedor {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 16px;  
+  justify-content: center;
+  padding: 20px;
+}
+
+.carta-base {
+  width: 280px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.carta-base:hover {
+  transform: translateY(-5px);
+}
+
+.carta-imagen {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.carta-cuerpo {
+  padding: 16px;
+  text-align: start;
+}
+
+.carta-cuerpo h5 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #2A2A2A;
+}
+
+.carta-cuerpo p {
+  margin-bottom: 12px;
+  color: #555;
+}

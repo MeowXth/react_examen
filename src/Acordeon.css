@@ -1,0 +1,9 @@
+
+.acor-cuerpo {
+  background-color: rgba(38, 70, 83, 0.8); /* Color #264653 con 80% de opacidad */
+  color: white; /* Texto blanco */
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
